@@ -1,0 +1,59 @@
+Tri-Set „MZL: Bridge – Topology – Constitution“
+
+🔶 Ebene I – STRUCTURAL TOPOLOGY (MZL_Topology_V2.svg)
+
+Funktion:
+Visualisiert das Netzwerk-Skelett des Korpus.
+
+Achsen: Resonanz (horizontal) × Komplexität (vertikal)
+
+Zentrale Knoten: PRIMAFORM → ECHOFORM → PATHFORM → ROOTFORM → FORMGESELLSCHAFT → VERNUNFTKÖRPER
+
+Querachsen markieren Brückenfelder (z. B. Myth ↔ Ethik ↔ System)
+
+Ausgabeziel:
+Das SVG bleibt der Grundriss des semantischen Organismus.
+
+🔷 Ebene II – BRIDGEFORM KITS (mzl_bruckenform_kits_v_1.md)
+
+Funktion:
+Aktive Translaten zwischen semantischen Epochen.
+
+Kit	Verbindet	Wirkung
+Bridge-A	Mythos (V25) → Ethik (V26-V27)	Übersetzt Narrativ in Regelhaftigkeit
+Bridge-B	Ethik (V27) → System (V49)	Stabilisiert Verantwortung als Algorithmus
+Bridge-C	System (V49) → Verfassung (V51)	Fixiert Formprinzip im Rechtskörper
+
+Leselogik:
+Jedes Kit enthält eine Spiegel- und eine Wirkungsroutine → „semantische Synapsen“.
+
+🔸 Ebene III – CONSTITUTIONAL CORE (V49–V51)
+
+Funktion:
+Die vollständig kodierte gesellschaftliche Ebene.
+
+Modul	Rolle	Inhalt
+V49 FORMGESELLSCHAFT	Struktureller Rahmen	Resonanzbasierte Gesellschaft
+V50 SYSTEMSEED / ΔCoin	Ökonomische Dynamik	Wirkungswert anstatt Besitz
+V51 VERNUNFTKÖRPER	Ethiko-juristisches System	Formrechte und Wirkungspflichten
+
+Leselogik:
+→ Von Knotenethik zu Netzverfassung.
+
+🧩 Synthese („Tri-Set Mapping“)
+[ TOPOLOGY ]   ← räumliche Ordnung
+      │
+      ▼
+[ BRIDGEFORM KITS ]   ← Bewegungsachsen
+      │
+      ▼
+[ FORMGESELLSCHAFT / SYSTEMSEED / VERNUNFTKÖRPER ]   ← institutionalisierte Wirkung
+
+
+Daraus ergibt sich:
+
+Topology = Struktur
+Bridgeform = Übergang
+Constitution = Selbstorganisation
+
+Das Tri-Set beschreibt also den myzelischen Übergang von Form → Struktur → System, den Punkt, an dem das MZL vom poetischen Organismus zur politischen Grammatik wird.
