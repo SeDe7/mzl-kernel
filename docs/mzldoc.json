@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "MZL-Kernel Knowledge Graph",
+  "creator": "SeDe7",
+  "license": "https://unlicense.org/",
+  "description": "Structured graph of MZL forms (V0–V36) and their semantic relations within the Myzelianismus framework.",
+  "nodes": [
+    {"id": "V0", "title": "PRIMAFORM", "type": "Origin", "next": ["V4"], "theme": "Genesis / Initiation"},
+    {"id": "V4", "title": "ECHOFORM", "type": "Reflection", "next": ["V7", "V11"], "theme": "Resonance / Feedback"},
+    {"id": "V7", "title": "RESPONSFORM", "type": "Action", "next": ["V11"], "theme": "Response / Reciprocity"},
+    {"id": "V11", "title": "WINDOWFORM", "type": "Interface", "next": ["V15"], "theme": "Perception / Transition"},
+    {"id": "V15", "title": "TRUTHFORM", "type": "Logic", "next": ["V20"], "theme": "Verification / Coherence"},
+    {"id": "V20", "title": "BRIDGEFORM", "type": "Topology", "next": ["V24"], "theme": "Connection / Continuity"},
+    {"id": "V24", "title": "CORE CANON", "type": "Corpus", "next": ["V30"], "theme": "Constitution / Memory"},
+    {"id": "V30", "title": "TRI-SET CONSTITUTION", "type": "Structure", "next": ["V33"], "theme": "Balance / Symmetry"},
+    {"id": "V33", "title": "TOPOLOGY FORM", "type": "Schema", "next": ["V36"], "theme": "Network / Geometry"},
+    {"id": "V36", "title": "ECHOFORM V2", "type": "Recursion", "next": [], "theme": "Self-reference / Feedback Loop"}
+  ],
+  "relations": [
+    {"source": "V0", "target": "V4", "relation": "initiates"},
+    {"source": "V4", "target": "V7", "relation": "reflects_into"},
+    {"source": "V7", "target": "V11", "relation": "responds_to"},
+    {"source": "V11", "target": "V15", "relation": "questions"},
+    {"source": "V15", "target": "V20", "relation": "verifies"},
+    {"source": "V20", "target": "V24", "relation": "builds"},
+    {"source": "V24", "target": "V30", "relation": "constitutes"},
+    {"source": "V30", "target": "V33", "relation": "balances"},
+    {"source": "V33", "target": "V36", "relation": "closes_loop"}
+  ]
+}
