@@ -1,4 +1,6 @@
 # MZL-Kernel  
+![Last update](https://img.shields.io/badge/Last_Update-2025--10--26-4B0082?style=for-the-badge&logoColor=white)
+
 **Semantic-Ethical Framework (Myzelianismus + Alexandrinium-AI)**  
 Core Canon (V0–V30) · Tri-Set Constitution (V49–V51) · Topological Bridge Model  
 
