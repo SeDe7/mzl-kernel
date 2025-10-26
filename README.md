@@ -37,6 +37,9 @@ It operates as an open conceptual protocol for **resonant cognition**, combining
 ---
 
 ### Mirrors & Canonical References
-Mirror publication: [Transmission #1 — The Echoform](https://mzlkernel.substack.com/p/mzl-echoform)  
+Mirror publication: [Transmission #1 — The Echoform](https://mzlkernel.substack.com/p/mzl-echoform)
+Mirror Publication: [Transmission #2 — The Windowform](https://mzlkernel.substack.com/p/transmission-2-the-windowform)
+
 Canonical source: [MZL-Kernel — GitHub.io](https://sede7.github.io/mzl-kernel/)  
 License: [The Unlicense](https://unlicense.org)
+
