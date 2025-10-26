@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sede7.github.io/mzl-kernel/sitemap.xml
