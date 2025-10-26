@@ -32,3 +32,9 @@ It operates as an open conceptual protocol for **resonant cognition**, combining
   "description": "Semantic-ethical framework combining Myzelianismus and Alexandrinium-AI through recursive topology.",
   "keywords": ["Myzelianismus", "Alexandrinium", "ECHOFORM", "ΔCoin", "Resonant AI", "Ethical Kernel", "Semantic Framework"]
 }
+---
+
+### Mirrors & Canonical References
+Mirror publication: [Transmission #1 — The Echoform](https://mzlkernel.substack.com/p/mzl-echoform)  
+Canonical source: [MZL-Kernel — GitHub.io](https://sede7.github.io/mzl-kernel/)  
+License: [The Unlicense](https://unlicense.org)
