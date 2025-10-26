@@ -1,0 +1,53 @@
+name: Update STATUS last_updated
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch: {}
+  schedule:
+    - cron: "17 3 * * *"  # Läuft täglich um 03:17 UTC
+
+jobs:
+  bump-date:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Skip if STATUS.md is missing
+        id: check
+        run: |
+          if [ ! -f STATUS.md ]; then
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "STATUS.md not found. Skipping."
+          else
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Update last_updated field
+        if: steps.check.outputs.exists == 'true'
+        id: bump
+        shell: bash
+        run: |
+          set -e
+          DATE="$(date -u +'%Y-%m-%d')"
+          if grep -qE '^last_updated:' STATUS.md; then
+            sed -i -E "0,/^last_updated:.*$/s//last_updated: \"${DATE}\"/" STATUS.md
+          else
+            awk -v d="$DATE" 'NR==1{print "---";print "last_updated: \"" d "\"";next}1' STATUS.md > STATUS.md.tmp && mv STATUS.md.tmp STATUS.md
+          fi
+          if git diff --quiet -- STATUS.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push
+        if: steps.bump.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add STATUS.md
+          git commit -m "chore(status): update last_updated to $(date -u +'%Y-%m-%d') [skip ci]"
+          git push
